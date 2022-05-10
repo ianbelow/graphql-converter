@@ -12,7 +12,7 @@ To start using this converter, just provide GraphqlConverter to Retrofit Builder
 
     Retrofit.Builder()
             .baseUrl(NetworkUtils.BASE_GQL_URL)
-            .addConverterFactory(GraphqlConverter>(context))
+            .addConverterFactory(GraphqlConverter(context))
             .build
 
 Graphql files should be stored in assets/graphql directory. 
