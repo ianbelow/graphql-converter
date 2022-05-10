@@ -8,7 +8,7 @@ Simple .graphql converter for Retrofit. Adds ability to specify .graphql file wi
     suspend fun getRegionDetailsById(@Body body: GraphqlQuery): RegionDetailsData
 
 
-To start using this converter, just provide GraphqlConverter to Retrofit Builder:
+To start using this converter, just provide GraphqlConverter to Retrofit Builder. If there are many converters being added, add GraphqlConverter first.
 
     Retrofit.Builder()
             .baseUrl(NetworkUtils.BASE_GQL_URL)
