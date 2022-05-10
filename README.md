@@ -38,7 +38,7 @@ In the root build.gradle add Jitpack repository:
 
 And in the module build.gradle add dependency:
 
-    implementation("com.github.ianbelov:graphqlconverter:0.0.1")
+    implementation("com.github.ianbelow:graphql-converter:0.0.1")
 
 [![](https://jitpack.io/v/ianbelow/GraphqlConverter.svg)](https://jitpack.io/#ianbelow/GraphqlConverter)
 
